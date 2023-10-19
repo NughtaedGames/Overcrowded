@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: River Material
+  m_Shader: {fileID: -6465566751694194690, guid: 0b353222869d2374a93665b1bd80716f,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_655B8AA0_Texture_1:
+        m_Texture: {fileID: 2800000, guid: d557914b0eb32d341a3d3dfdce1b198c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_805CECB6_Texture_1:
+        m_Texture: {fileID: 2800000, guid: d557914b0eb32d341a3d3dfdce1b198c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_91FD2C90_Texture_1:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_266F8A7A: 0.25
+    - Vector1_2D1AF728: 0.06
+    - Vector1_2E6881D2: 33.64
+    - Vector1_4408A647: 25
+    - Vector1_4596D305: 0.45
+    - Vector1_47F9A80B: 0
+    - Vector1_5E8B03F6: 0.05
+    - Vector1_73B1AF16: 0.8
+    - Vector1_7F59DB4A: 0.06
+    - Vector1_82551DCE: 1.74
+    - Vector1_88595D97: 2.21
+    - Vector1_93FC2BD9: 3
+    - Vector1_A9B26AAE: 2.52
+    - Vector1_B9C6689C: 1.3
+    - Vector1_DAFD5CB8: 0.213
+    - Vector1_DB294916: 0.1
+    - Vector1_E2D9402B: 66.8
+    - Vector1_F8206FE3: 9.72
+    m_Colors:
+    - Color_168A9C5C: {r: 0.3724635, g: 0.5453816, b: 0.5849056, a: 0}
+    - Color_2FF78799: {r: 0.6450694, g: 0.8653309, b: 0.9056604, a: 0}
+    - Color_A434CE9E: {r: 0.0980392, g: 0.5975908, b: 0.8313726, a: 0}
+    - Color_D2A250D: {r: 0.28875935, g: 0.50446296, b: 0.5943396, a: 0}
+    - Color_FE35EDBA: {r: 0.36329654, g: 0.4442862, b: 0.49056602, a: 0}
+    - Vector2_E60357F: {r: -32.3, g: 0, b: 0, a: 0}

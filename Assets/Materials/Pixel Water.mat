@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pixel Water
+  m_Shader: {fileID: -6465566751694194690, guid: 0b353222869d2374a93665b1bd80716f,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_4408A647: 0.02
+    - Vector1_73B1AF16: 116.9
+    - Vector1_7F59DB4A: 91.37
+    - Vector1_82551DCE: 1.2
+    - Vector1_93FC2BD9: 2
+    - Vector1_A9B26AAE: 3.88
+    - Vector1_DAFD5CB8: 0.12
+    - Vector1_E2D9402B: 66.8
+    m_Colors:
+    - Color_168A9C5C: {r: 0, g: 0.6399903, b: 1, a: 0}
+    - Color_2FF78799: {r: 0.7734629, g: 0.7734629, b: 0.7734629, a: 0}
+    - Color_A434CE9E: {r: 0.0980392, g: 0.5975908, b: 0.8313726, a: 0}
+    - Color_FE35EDBA: {r: 0.43921328, g: 0.5462282, b: 0.6603774, a: 0}

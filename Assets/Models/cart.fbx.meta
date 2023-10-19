@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 8c524f768b524ef41a70bd4521e8d1fd
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 4208241512107147441
+    second: cart_main|Cube.061|Cube.061|Cube.056Action|Cube.061|Cube.056Action
+  - first:
+      74: -9164747247753469253
+    second: cart_main|Cube.061|Cube.061|Cube.061Action|Cube.061|Cube.061Action
+  - first:
+      74: 4806438655301512977
+    second: cart_main|Cube.129Action
+  - first:
+      74: -5590688064184053643
+    second: cart_main|measure_02.012Action
+  - first:
+      74: -6518047097187853136
+    second: cart_main|measure_02.012Action.001
+  - first:
+      74: 6546267771250599084
+    second: cart_main|measure_02.012Action.002
+  - first:
+      74: 2974020006693678859
+    second: cart_main|measure_02.012Action.003
+  - first:
+      74: -3573769557218483895
+    second: cart_main|measure_02.012Action.004
+  - first:
+      74: -4751640706105231830
+    second: cart_main|measure_02.012Action.005
+  - first:
+      74: 6865607375208968973
+    second: cart_main|measure_02.012Action.006
+  - first:
+      74: -4178950679627247016
+    second: cart_main|measure_02.012Action.007
+  - first:
+      74: -7194711726253073664
+    second: cart_main|measure_02.012Action.008
+  - first:
+      74: -1750221941802248955
+    second: cart_main|measure_02.012Action.009
+  - first:
+      74: -3206541426452217107
+    second: cart_main|measure_02.012Action.010
+  - first:
+      74: 4178806397951246618
+    second: cart_main|measure_02.012Action.011
+  - first:
+      74: 3722125263020961879
+    second: cart_main|measure_02.012Action.012
+  - first:
+      74: -3535592270293845065
+    second: cart_main|measure_02.012Action.013
+  - first:
+      74: -6191903135056148764
+    second: cart_main|measure_02.012Action.014
+  - first:
+      74: 8828159660083897670
+    second: cart_main|measure_02.012Action.015
+  - first:
+      74: -5196053430133061759
+    second: cart_main|roof_top.018Action
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brick_bright_tileset
+    second: {instanceID: 0}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tileset_01
+    second: {fileID: 2100000, guid: 4ad53f3ec3849844e97158d45196494a, type: 2}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

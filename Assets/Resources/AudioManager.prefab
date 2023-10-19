@@ -1,0 +1,1027 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4605835453223847701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4605835453223847703}
+  - component: {fileID: 4605835453223847700}
+  - component: {fileID: -1351143800354002680}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4605835453223847703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4605835453223847701}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4605835453223847700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4605835453223847701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e3b640f9fcee74c86dec6c378a892f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: 7811ee0d86275c84eac397db32267300, type: 2}
+  masterVolume: {fileID: 11400000, guid: 06fa9a0f821fbf64abdfd54e5c862717, type: 2}
+  hasOnDestroyOnLoad: 1
+  soundLists:
+  - name: Music
+    sounds:
+    - name: Main
+      clip: {fileID: 8300000, guid: 8af89d4f3bb70a947b78035cef488421, type: 3}
+      audioMixerGroup: {fileID: -9049391779837241336, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.05
+      pitch: 1
+      loop: 1
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: IntenseMusic
+      clip: {fileID: 8300000, guid: de53283bff201e640b1a9eedfd27299b, type: 3}
+      audioMixerGroup: {fileID: -9049391779837241336, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.06
+      pitch: 1
+      loop: 1
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: IntenseMusicIntro
+      clip: {fileID: 8300000, guid: 74be2ca810c5e76458737b5aee7ad7bc, type: 3}
+      audioMixerGroup: {fileID: -9049391779837241336, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.06
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: Menu
+      clip: {fileID: 8300000, guid: 3af192af84c3b6b4288f5859f982734b, type: 3}
+      audioMixerGroup: {fileID: -9049391779837241336, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.06
+      pitch: 1
+      loop: 1
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+  - name: Ambient
+    sounds:
+    - name: CrowdLarge
+      clip: {fileID: 8300000, guid: cdd876bc317d0a94b84e5bef98ee152e, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: CrowdMedium
+      clip: {fileID: 8300000, guid: ed5557accfea33a4993cdb713761a341, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: CrowdSmall
+      clip: {fileID: 8300000, guid: 6fb1d3f5dd3aaee4bb7d35d8e779f86a, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 1
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: Axe
+      clip: {fileID: 8300000, guid: f231a184c5ff1ad4893ed3a2df34af3d, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.1
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: Birds
+      clip: {fileID: 8300000, guid: 42dd1939587970849bcfb8e746c735f8, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.217
+      pitch: 1
+      loop: 1
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+  - name: MessageTones
+    sounds:
+    - name: MessageTone1
+      clip: {fileID: 8300000, guid: e68470111f8239243a2f8ab1e372ea77, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: MessageTone2
+      clip: {fileID: 8300000, guid: 3303e7dc4d857314697e23347b03bf80, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+  - name: StoneSteps
+    sounds:
+    - name: StoneStep1
+      clip: {fileID: 8300000, guid: 5eb4ca7dc46540548b56ea89ffd7cb79, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.3
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: StoneStep2
+      clip: {fileID: 8300000, guid: f1a7a6948376d754c931e823c44747aa, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: StoneStep3
+      clip: {fileID: 8300000, guid: dd9a41d5708448f4b82ae9f9fe702eb0, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: StoneStep4
+      clip: {fileID: 8300000, guid: 645af472aff575442ac1e5d0d71c7ba5, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: StoneStep5
+      clip: {fileID: 8300000, guid: 0c79f2b64c4e31745a1763c49bec0211, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: StoneStep6
+      clip: {fileID: 8300000, guid: 0445c472d7830e340b38545294fbf577, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: StoneStep7
+      clip: {fileID: 8300000, guid: 0c488c33262b3f8428bc944602c52d1d, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: StoneStep8
+      clip: {fileID: 8300000, guid: 8f09313ee0d149c46a5cdd92da264a3c, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+  - name: WoodSteps
+    sounds:
+    - name: WoodSteps1
+      clip: {fileID: 8300000, guid: b5e9410bb727dd94382e091ea0716915, type: 3}
+      audioMixerGroup: {fileID: 0}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: WoodSteps2
+      clip: {fileID: 8300000, guid: 2f382c2b6c18a0d4eaa3189bb3ce8e70, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: WoodSteps3
+      clip: {fileID: 8300000, guid: 7267e2862f3e9be4296cacbec09e6229, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: WoodSteps4
+      clip: {fileID: 8300000, guid: b4b8d5121fe40814f8c0626c66654b66, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: WoodSteps5
+      clip: {fileID: 8300000, guid: 00e36d0fd188a4542a161a9f1b3fe775, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: WoodSteps6
+      clip: {fileID: 8300000, guid: aa9ef708b06513d419b7386c5f2f70e9, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: WoodSteps7
+      clip: {fileID: 8300000, guid: feb0172d30dc19241a8124f7a8070c97, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: WoodSteps8
+      clip: {fileID: 8300000, guid: 51d2f8f5216296c42be7c9a91f2b4853, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+  - name: GrassSteps
+    sounds:
+    - name: GrassSteps1
+      clip: {fileID: 8300000, guid: ddd678ead391bc646adca901d5efaee4, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: GrassSteps2
+      clip: {fileID: 8300000, guid: dc612a34bc46f2a48b6e8764c6e568c6, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: GrassSteps3
+      clip: {fileID: 8300000, guid: a1858c5aed94f28499ad8ed4f18c80b8, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: GrassSteps4
+      clip: {fileID: 8300000, guid: 284e3d63c626ab345802b48752892e39, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: GrassSteps5
+      clip: {fileID: 8300000, guid: 5460da89e0cbef84e8de55c6cec5314f, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: GrassSteps6
+      clip: {fileID: 8300000, guid: 4aa3c9abd2d937d46a4febd6d08482a9, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: GrassSteps7
+      clip: {fileID: 8300000, guid: 99a986484f0be4443941403075c1b98b, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+    - name: GrassSteps8
+      clip: {fileID: 8300000, guid: a98e1f05eff499a489ce14b013b4ce42, type: 3}
+      audioMixerGroup: {fileID: 6245070988995649767, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 0
+      maxDistance: 0
+      source: {fileID: 0}
+  - name: ----------- UI -----------
+    sounds: []
+  - name: UIButtonPress
+    sounds:
+    - name: ButtonPress1
+      clip: {fileID: 8300000, guid: 0d8338eb189da524e85c27ad48c9489c, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+  - name: UIButtonHover
+    sounds:
+    - name: UIButtonHover1
+      clip: {fileID: 8300000, guid: d04f6bd9228d98f4bbf095bcaa261269, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.6
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+  - name: ----------- TASK SOUNDS -----------
+    sounds: []
+  - name: PosterSounds
+    sounds:
+    - name: pst1
+      clip: {fileID: 8300000, guid: eb8c91b2df166c341a2802c7a0c0fbf3, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.15
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: pst2
+      clip: {fileID: 8300000, guid: cb9e54a466a0ecd488844275467fc7fe, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.15
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: pst3
+      clip: {fileID: 8300000, guid: 654eeb52c823e5a4e9d5e7a65e3819a8, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.15
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: pst4
+      clip: {fileID: 8300000, guid: 0e1313cd9d9ea6c4188f70bf42d5548d, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.15
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+    - name: pst5
+      clip: {fileID: 8300000, guid: 6f973bd8ee9c5f54687e3f47cb4acc63, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.15
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 500
+      source: {fileID: 0}
+  - name: StatueDrop
+    sounds:
+    - name: StatueDrop1
+      clip: {fileID: 8300000, guid: a563aa3b9e470db489a7192aefb909fc, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.6
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 5
+      source: {fileID: 0}
+    - name: StatueDrop2
+      clip: {fileID: 8300000, guid: 93a94a3f389edea40a5a993f8769f6bb, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.6
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 5
+      source: {fileID: 0}
+  - name: GateDrop
+    sounds:
+    - name: GateDrop
+      clip: {fileID: 8300000, guid: ec1c3336ebce0fa42b0a24cc5a2c6c55, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.5
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 15
+      source: {fileID: 0}
+  - name: GateLift
+    sounds:
+    - name: GateLift1
+      clip: {fileID: 8300000, guid: a5f3bdd693c16f64bb80a5fadf5a9677, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.5
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 15
+      source: {fileID: 0}
+    - name: GateLift2
+      clip: {fileID: 8300000, guid: a652dbd0eee3ead45b4c9ae94b90171c, type: 3}
+      audioMixerGroup: {fileID: 0}
+      volume: 0.5
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 15
+      source: {fileID: 0}
+  - name: RemoveBook
+    sounds:
+    - name: Book 1
+      clip: {fileID: 8300000, guid: 0ebcfb607a27ffc45877fcbecfb0a52a, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+    - name: Book 2
+      clip: {fileID: 8300000, guid: 54de258e260549646b5521a33958c934, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+    - name: Book 3
+      clip: {fileID: 8300000, guid: 96149e31b0d479144867697c24d54e7a, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+    - name: Book 4
+      clip: {fileID: 8300000, guid: 597ab409ee379ea4d86179d96c22c847, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+  - name: AngryAfterTask
+    sounds:
+    - name: AngryAfterTask1
+      clip: {fileID: 8300000, guid: d2809abc17c20854eb1c59e50d98e3e7, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.5
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+    - name: AngryAfterTask2
+      clip: {fileID: 8300000, guid: d6f5976e7f717424cbaeff967bf0aa28, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.7
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+    - name: AngryAfterTask3
+      clip: {fileID: 8300000, guid: 49ef8c26b57cac949b57867e2936f1c1, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.7
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+  - name: ButtonMashing
+    sounds:
+    - name: ButtonMashing1
+      clip: {fileID: 8300000, guid: ba3775fa8aa5525448f6a1a4dc8ef432, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: ButtonMashing2
+      clip: {fileID: 8300000, guid: aec58fa505baa5744848d89546a714d3, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: ButtonMashing3
+      clip: {fileID: 8300000, guid: d92ca0c4a72bd17408bc75b44ca09ead, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: ButtonMashing4
+      clip: {fileID: 8300000, guid: 38b4e5ea45d9415408917338eab542fe, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: ButtonMashing5
+      clip: {fileID: 8300000, guid: 3757343021ab8cd4f883b66b77d0c3da, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: ButtonMashing6
+      clip: {fileID: 8300000, guid: 558355f83f2dc9549a21d7c07c38e277, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.2
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+  - name: TearFlag
+    sounds:
+    - name: TearFlag1
+      clip: {fileID: 8300000, guid: a26655bcb57ebd042ab4f5aac45f1b1a, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: TearFlag2
+      clip: {fileID: 8300000, guid: 9274a34c5df8bc8499a21e4f78598753, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: TearFlag3
+      clip: {fileID: 8300000, guid: abc55ed8b5b65a94f89585e2d084be84, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: TearFlag4
+      clip: {fileID: 8300000, guid: dff996ed266f2cd48945b9a2ed3f8454, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: TearFlag5
+      clip: {fileID: 8300000, guid: d528ccff0422067478c1b76ac4fcd283, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: TearFlag6
+      clip: {fileID: 8300000, guid: 76cea6392a082524c8fe8ed8f6f6a23a, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+  - name: TaskDone
+    sounds:
+    - name: TaskDone1
+      clip: {fileID: 8300000, guid: 4af8987369dfe2840b549c1bdf961970, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.3
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+    - name: TaskDone2
+      clip: {fileID: 8300000, guid: d8e1a49648ce44447a0d37926084fc26, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.3
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+  - name: PaintWall
+    sounds:
+    - name: PaintWall1
+      clip: {fileID: 8300000, guid: 9571a83065c5bc34c9da2e32a911d3fa, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: PaintWall2
+      clip: {fileID: 8300000, guid: 9f35a42afebabca4e920993681befe66, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: PaintWall3
+      clip: {fileID: 8300000, guid: c47958f05ffa52c45b1cacdc6a9cca8b, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: PaintWall4
+      clip: {fileID: 8300000, guid: 096aabe34c38bfc4986043e9c4ac47bc, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: PaintWall5
+      clip: {fileID: 8300000, guid: 234de529053584c4da1773851f2d91f0, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+  - name: ----------- Player Sounds -----------
+    sounds: []
+  - name: Caught
+    sounds:
+    - name: Caught1
+      clip: {fileID: 8300000, guid: fc90e32b113732747bd556412da07664, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+    - name: Caught2
+      clip: {fileID: 8300000, guid: a2704d603f77ee048b4e856548211a09, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+  - name: HALT
+    sounds:
+    - name: HALT1
+      clip: {fileID: 8300000, guid: 148b5360317005649a40bc1e693f8676, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+    - name: HALT2
+      clip: {fileID: 8300000, guid: 70ff7943e2192f345b29ac85cb4da979, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+    - name: HALT3
+      clip: {fileID: 8300000, guid: 375f3a097f0be9a46a7755faea4a160b, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+    - name: HALT4
+      clip: {fileID: 8300000, guid: 15fae4550c2420441abaaeeeb42a037e, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 1
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+  - name: Whistle
+    sounds:
+    - name: Whistle1
+      clip: {fileID: 8300000, guid: 859f337bc035ef3499dd6ba407eff7bb, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: Whistle2
+      clip: {fileID: 8300000, guid: f0e7280755e488646953c80a4193e3db, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: Whistle3
+      clip: {fileID: 8300000, guid: 2284d84d4995d26498f76712fe68fbd8, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: Whistle4
+      clip: {fileID: 8300000, guid: 00fc554fb81eb2e48b226c5828314084, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+    - name: Whistle5
+      clip: {fileID: 8300000, guid: b297c1517b0c9a94fb1870353a7c46c7, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.9
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+  - name: Angry
+    sounds:
+    - name: Angry1
+      clip: {fileID: 8300000, guid: 266366105c20d9940a8e6765eae4f2c0, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.5
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+    - name: Angry2
+      clip: {fileID: 8300000, guid: 395c6c1da2a24fc459b913a72ebe875d, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.7
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+    - name: Angry3
+      clip: {fileID: 8300000, guid: d65bcbea73db9c34f9211067326db124, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.7
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+    - name: Angry4
+      clip: {fileID: 8300000, guid: 13307fe42cc13474596ee03e08b59802, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.7
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 20
+      source: {fileID: 0}
+  - name: Win
+    sounds:
+    - name: Win
+      clip: {fileID: 8300000, guid: 813aa1e10bd7ed545a308293894da04d, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.6
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+  - name: Lose
+    sounds:
+    - name: Loose
+      clip: {fileID: 8300000, guid: a50b48800176d8e4ea74e292664377b8, type: 3}
+      audioMixerGroup: {fileID: 442750568471410180, guid: 7811ee0d86275c84eac397db32267300,
+        type: 2}
+      volume: 0.6
+      pitch: 1
+      loop: 0
+      minDistance: 1
+      maxDistance: 10
+      source: {fileID: 0}
+  musicVolume: {fileID: 11400000, guid: da3f2a7f8fa67634bb1875b97120bb79, type: 2}
+  ambienceVolume: {fileID: 11400000, guid: 642a21c5a3e6b1d42bdd9e465e9192f0, type: 2}
+  sfxVolume: {fileID: 11400000, guid: 727c2dab307bf8844940558201224993, type: 2}
+--- !u!114 &-1351143800354002680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4605835453223847701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 0
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 0}
+  viewIdField: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

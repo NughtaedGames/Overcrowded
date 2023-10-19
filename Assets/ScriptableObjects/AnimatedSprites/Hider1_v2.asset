@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f308b0bcc420f54c98a664572c16d15, type: 3}
+  m_Name: Hider1_v2
+  m_EditorClassIdentifier: 
+  sprite: {fileID: -7159788799628643093, guid: 7fc89d2dbe691e34da6023ef6b5ee506, type: 3}
+  animatorController: {fileID: 9100000, guid: d09fa0f734dc3d84dbde0138f750a2b7, type: 2}
+  name: Hider1_v2

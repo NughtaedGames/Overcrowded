@@ -1,0 +1,1151 @@
+fileFormatVersion: 2
+guid: f3c8b01d9669f5f469bc55ae272b9475
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8097644388453889726
+    second: marketstand_decoration_0
+  - first:
+      213: -7144234944424247676
+    second: marketstand_decoration_1
+  - first:
+      213: -3852208255707109894
+    second: marketstand_decoration_2
+  - first:
+      213: 3663112751273854982
+    second: marketstand_decoration_3
+  - first:
+      213: -739251251080959542
+    second: marketstand_decoration_4
+  - first:
+      213: 743296574275293856
+    second: marketstand_decoration_5
+  - first:
+      213: 8385073458866695977
+    second: marketstand_decoration_6
+  - first:
+      213: -502512421200242726
+    second: marketstand_decoration_7
+  - first:
+      213: -7016770021853381686
+    second: marketstand_decoration_8
+  - first:
+      213: 4561326570734240155
+    second: marketstand_decoration_9
+  - first:
+      213: 4048084304878343050
+    second: marketstand_decoration_10
+  - first:
+      213: -5224401579396637759
+    second: marketstand_decoration_11
+  - first:
+      213: -9195295033040305911
+    second: marketstand_decoration_12
+  - first:
+      213: -2021829300063843139
+    second: marketstand_decoration_13
+  - first:
+      213: -3337437257076207584
+    second: marketstand_decoration_14
+  - first:
+      213: 1245015059005530375
+    second: marketstand_decoration_15
+  - first:
+      213: 2553880050865337278
+    second: marketstand_decoration_16
+  - first:
+      213: -5575298484433224314
+    second: marketstand_decoration_17
+  - first:
+      213: -3862100917377394922
+    second: marketstand_decoration_18
+  - first:
+      213: -2714360494796128923
+    second: marketstand_decoration_19
+  - first:
+      213: 2585297976521500675
+    second: marketstand_decoration_20
+  - first:
+      213: -5429449959185358917
+    second: marketstand_decoration_21
+  - first:
+      213: -3524498931618677808
+    second: marketstand_decoration_22
+  - first:
+      213: -7549996148709842289
+    second: marketstand_decoration_23
+  - first:
+      213: 4236350067259985477
+    second: marketstand_decoration_24
+  - first:
+      213: 8066745644392558172
+    second: marketstand_decoration_25
+  - first:
+      213: -8451481123010609794
+    second: marketstand_decoration_26
+  - first:
+      213: -7708541745393331301
+    second: marketstand_decoration_27
+  - first:
+      213: 2903575328120100586
+    second: marketstand_decoration_28
+  - first:
+      213: 3901403242415274955
+    second: marketstand_decoration_29
+  - first:
+      213: -7805692191016472884
+    second: marketstand_decoration_30
+  - first:
+      213: 2513938384176273356
+    second: marketstand_decoration_31
+  - first:
+      213: 8644928460271050900
+    second: marketstand_decoration_32
+  - first:
+      213: -7976515493998803985
+    second: marketstand_decoration_33
+  - first:
+      213: 6312530104280572652
+    second: marketstand_decoration_34
+  - first:
+      213: 3939309870717042279
+    second: marketstand_decoration_35
+  - first:
+      213: 3025577404049612284
+    second: marketstand_decoration_36
+  - first:
+      213: -7251724035364425790
+    second: marketstand_decoration_37
+  - first:
+      213: 5416274945576292765
+    second: marketstand_decoration_38
+  - first:
+      213: 4765213694700737970
+    second: marketstand_decoration_39
+  - first:
+      213: -1675908878896233052
+    second: marketstand_decoration_40
+  - first:
+      213: -771586599948297400
+    second: marketstand_decoration_41
+  - first:
+      213: 823693950940420376
+    second: marketstand_decoration_42
+  - first:
+      213: -5145907077475813783
+    second: marketstand_decoration_43
+  - first:
+      213: -8774605927953572310
+    second: marketstand_decoration_44
+  - first:
+      213: -5507037996125115254
+    second: marketstand_decoration_45
+  - first:
+      213: 1915186719799881029
+    second: marketstand_decoration_46
+  - first:
+      213: 6807666301423153646
+    second: marketstand_decoration_47
+  - first:
+      213: -5347460656931286053
+    second: marketstand_decoration_48
+  - first:
+      213: 8492136925085095827
+    second: marketstand_decoration_49
+  - first:
+      213: 8758811929663540550
+    second: marketstand_decoration_50
+  - first:
+      213: 9129146779252067780
+    second: marketstand_decoration_51
+  - first:
+      213: -932274101842306020
+    second: marketstand_decoration_52
+  - first:
+      213: -7567258030624780959
+    second: marketstand_decoration_53
+  - first:
+      213: -523691029880135393
+    second: marketstand_decoration_54
+  - first:
+      213: -2805539143264464728
+    second: marketstand_decoration_55
+  - first:
+      213: -4187778209233007444
+    second: marketstand_decoration_56
+  - first:
+      213: -1417661372812467800
+    second: marketstand_decoration_57
+  - first:
+      213: 6699292016513568236
+    second: marketstand_decoration_58
+  - first:
+      213: -4296132562608019466
+    second: marketstand_decoration_59
+  - first:
+      213: 5015671581545729185
+    second: marketstand_decoration_60
+  - first:
+      213: 3738323363463831128
+    second: marketstand_decoration_61
+  - first:
+      213: -8255324868664728637
+    second: marketstand_decoration_62
+  - first:
+      213: -7160652386559802174
+    second: marketstand_decoration_63
+  - first:
+      213: -8634121276197085229
+    second: marketstand_decoration_64
+  - first:
+      213: -1188706233268415354
+    second: marketstand_decoration_65
+  - first:
+      213: 6789167514319784793
+    second: marketstand_decoration_66
+  - first:
+      213: -7253814201596616652
+    second: marketstand_decoration_67
+  - first:
+      213: 6546402395003150919
+    second: marketstand_decoration_68
+  - first:
+      213: -2549235635729942537
+    second: marketstand_decoration_69
+  - first:
+      213: 2806927147776239848
+    second: marketstand_decoration_70
+  - first:
+      213: 2832135515205353792
+    second: marketstand_decoration_71
+  - first:
+      213: 1765752847376311176
+    second: marketstand_decoration_72
+  - first:
+      213: 5566777091767840349
+    second: marketstand_decoration_73
+  - first:
+      213: -322460541163488051
+    second: marketstand_decoration_74
+  - first:
+      213: -4368292979398115436
+    second: marketstand_decoration_75
+  - first:
+      213: 6747126245765285148
+    second: marketstand_decoration_76
+  - first:
+      213: 3163955749335635164
+    second: marketstand_decoration_77
+  - first:
+      213: -1374760327155263641
+    second: marketstand_decoration_78
+  - first:
+      213: 798533952305853321
+    second: marketstand_decoration_79
+  - first:
+      213: -4445701621815057967
+    second: marketstand_decoration_80
+  - first:
+      213: 3080928751586553082
+    second: marketstand_decoration_81
+  - first:
+      213: 442806083748563906
+    second: marketstand_decoration_82
+  - first:
+      213: 9183248720456040724
+    second: marketstand_decoration_83
+  - first:
+      213: 1367532213071059711
+    second: marketstand_decoration_84
+  - first:
+      213: -612780037292227991
+    second: marketstand_decoration_85
+  - first:
+      213: 641057967985044199
+    second: marketstand_decoration_86
+  - first:
+      213: -4512148570410440667
+    second: marketstand_decoration_87
+  - first:
+      213: -5096505211949330201
+    second: marketstand_decoration_88
+  - first:
+      213: -6002615881958504852
+    second: marketstand_decoration_89
+  - first:
+      213: 7477080031526875243
+    second: marketstand_decoration_90
+  - first:
+      213: -7924633296051739225
+    second: marketstand_decoration_91
+  - first:
+      213: 1762752557798053657
+    second: marketstand_decoration_92
+  - first:
+      213: 6408545726646975844
+    second: marketstand_decoration_93
+  - first:
+      213: -6995486077564388517
+    second: marketstand_decoration_94
+  - first:
+      213: -2889551149976365271
+    second: marketstand_decoration_95
+  - first:
+      213: 4858209095824531919
+    second: marketstand_decoration_96
+  - first:
+      213: -5367715384388726916
+    second: marketstand_decoration_97
+  - first:
+      213: 7041441192629610246
+    second: marketstand_decoration_98
+  - first:
+      213: -6818054480554504928
+    second: marketstand_decoration_99
+  - first:
+      213: -6214061095984676230
+    second: marketstand_decoration_100
+  - first:
+      213: -1218647454325744142
+    second: marketstand_decoration_101
+  - first:
+      213: -1797006177174230059
+    second: marketstand_decoration_102
+  - first:
+      213: 6054885843042708974
+    second: marketstand_decoration_103
+  - first:
+      213: -6743604310452962150
+    second: marketstand_decoration_104
+  - first:
+      213: -3275028048678503481
+    second: marketstand_decoration_105
+  - first:
+      213: 2838148970085174208
+    second: marketstand_decoration_106
+  - first:
+      213: -7736312597571463789
+    second: marketstand_decoration_107
+  - first:
+      213: -3465144366823971181
+    second: marketstand_decoration_108
+  - first:
+      213: 7642715936344636067
+    second: marketstand_decoration_109
+  - first:
+      213: -7719173381248814118
+    second: marketstand_decoration_110
+  - first:
+      213: 7544402373532689584
+    second: marketstand_decoration_111
+  - first:
+      213: 5580501761566463401
+    second: marketstand_decoration_112
+  - first:
+      213: 5420936493727216901
+    second: marketstand_decoration_113
+  - first:
+      213: -7998943250392428146
+    second: marketstand_decoration_114
+  - first:
+      213: -5424353990947842545
+    second: marketstand_decoration_115
+  - first:
+      213: -2195822522349950568
+    second: marketstand_decoration_116
+  - first:
+      213: -4000031444478595678
+    second: marketstand_decoration_117
+  - first:
+      213: 4855929233530225769
+    second: marketstand_decoration_118
+  - first:
+      213: -4218957266260616101
+    second: marketstand_decoration_119
+  - first:
+      213: 4544717921742501244
+    second: marketstand_decoration_120
+  - first:
+      213: 8350035113777434568
+    second: marketstand_decoration_121
+  - first:
+      213: 3741581162443833225
+    second: marketstand_decoration_122
+  - first:
+      213: 7422840998722765351
+    second: marketstand_decoration_123
+  - first:
+      213: -3031359598539076964
+    second: marketstand_decoration_124
+  - first:
+      213: -104798221555297313
+    second: marketstand_decoration_125
+  - first:
+      213: -8439940443436059816
+    second: marketstand_decoration_126
+  - first:
+      213: -7465756348017727988
+    second: marketstand_decoration_127
+  - first:
+      213: -6124911892849649352
+    second: marketstand_decoration_128
+  - first:
+      213: 8607008474537571474
+    second: marketstand_decoration_129
+  - first:
+      213: -574016878615779343
+    second: marketstand_decoration_130
+  - first:
+      213: -2905554828878360778
+    second: marketstand_decoration_131
+  - first:
+      213: 2911360662842753525
+    second: marketstand_decoration_132
+  - first:
+      213: 108313731090254295
+    second: marketstand_decoration_133
+  - first:
+      213: -4365472502739550497
+    second: marketstand_decoration_134
+  - first:
+      213: 3655454324202304817
+    second: marketstand_decoration_135
+  - first:
+      213: -1658311604731627739
+    second: marketstand_decoration_136
+  - first:
+      213: 3466986378770611522
+    second: marketstand_decoration_137
+  - first:
+      213: 6669543103536147880
+    second: marketstand_decoration_138
+  - first:
+      213: 7496154628155475040
+    second: marketstand_decoration_139
+  - first:
+      213: -9080937536298714907
+    second: marketstand_decoration_140
+  - first:
+      213: 5481563868911925583
+    second: marketstand_decoration_141
+  - first:
+      213: -9012698519333437239
+    second: marketstand_decoration_142
+  - first:
+      213: 3800324141424465925
+    second: marketstand_decoration_143
+  - first:
+      213: -2333035377939095416
+    second: marketstand_decoration_144
+  - first:
+      213: -1479040690263593486
+    second: marketstand_decoration_0
+  - first:
+      213: -5811582754010426652
+    second: marketstand_decoration_1
+  - first:
+      213: -3780342792109379159
+    second: marketstand_decoration_2
+  - first:
+      213: 6081381127928764379
+    second: marketstand_decoration_3
+  - first:
+      213: 8357511419556544989
+    second: marketstand_decoration_4
+  - first:
+      213: 3224725745720143299
+    second: marketstand_decoration_5
+  - first:
+      213: 3039159626876481602
+    second: marketstand_decoration_6
+  - first:
+      213: 8459803589597506662
+    second: marketstand_decoration_7
+  - first:
+      213: -988364522379116734
+    second: marketstand_decoration_8
+  - first:
+      213: 2286174050564586952
+    second: marketstand_decoration_9
+  - first:
+      213: -4159853871095804993
+    second: marketstand_decoration_10
+  - first:
+      213: 4335637250612170968
+    second: marketstand_decoration_11
+  - first:
+      213: 6540046194871112791
+    second: marketstand_decoration_12
+  - first:
+      213: 7549787148760694335
+    second: marketstand_decoration_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: marketstand_decoration_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd6d781454697be0800000000000000
+      internalID: -1479040690263593486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e21c6cb64c195fa0800000000000000
+      internalID: -5811582754010426652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1bc1b7246898bc0800000000000000
+      internalID: -3780342792109379159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd755f15ae7656450800000000000000
+      internalID: 6081381127928764379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd140f82b58dbf370800000000000000
+      internalID: 8357511419556544989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cda4bbfaf680cc20800000000000000
+      internalID: 3224725745720143299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f2e4382e3cd5470800000000000000
+      internalID: 8385073458866695977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 304
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad753278d97b609f0800000000000000
+      internalID: -502512421200242726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbb1d077dc6f9e90800000000000000
+      internalID: -7016770021853381686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b914a2169561d4f30800000000000000
+      internalID: 4561326570734240155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a839b154a3fad2830800000000000000
+      internalID: 4048084304878343050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 272
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbd21091723f77b0800000000000000
+      internalID: -5224401579396637759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 272
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90108bed2efb36080800000000000000
+      internalID: -9195295033040305911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcc735b6f401f3e0800000000000000
+      internalID: -2021829300063843139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02091d74f7a0fa1d0800000000000000
+      internalID: -3337437257076207584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_15
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 255
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701690c899e274110800000000000000
+      internalID: 1245015059005530375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 297
+        width: 79
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3f8ce0064317320800000000000000
+      internalID: 2553880050865337278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d759e419f80a2b0800000000000000
+      internalID: -5575298484433224314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 277
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617920d8daf076ac0800000000000000
+      internalID: -3862100917377394922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 251
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56db253e287a45ad0800000000000000
+      internalID: -2714360494796128923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 272
+        width: 6
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308a919efc2d0e320800000000000000
+      internalID: 2585297976521500675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_21
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 272
+        width: 4
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf5ff05708b6a4b0800000000000000
+      internalID: -5429449959185358917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 280
+        width: 13
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbff9135e6761fc0800000000000000
+      internalID: -3524498931618677808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 240
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82259c1186093790800000000000000
+      internalID: -7549996148709842289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 277
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ecb37e0f98aca30800000000000000
+      internalID: 4236350067259985477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marketstand_decoration_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ea2739c66d2ff60800000000000000
+      internalID: 8066745644392558172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c81f1e1379d69d745bad43014f40c219
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

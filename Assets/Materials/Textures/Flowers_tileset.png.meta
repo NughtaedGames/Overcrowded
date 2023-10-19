@@ -1,0 +1,944 @@
+fileFormatVersion: 2
+guid: 8a4753190eb1cce468d1ac10e22041f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5012926307479925614
+    second: grass_big_01
+  - first:
+      213: 2566135198101436632
+    second: grass_big_02
+  - first:
+      213: -3527273499183381612
+    second: grass_small_01
+  - first:
+      213: 4024719243308123859
+    second: mushroom_brown_big
+  - first:
+      213: -6777698736761718433
+    second: mushroom_brown_small
+  - first:
+      213: -2334357620442507798
+    second: mushroom_red_big
+  - first:
+      213: 893140836729033331
+    second: mushroom_red_small
+  - first:
+      213: 7835731837415919577
+    second: flower_red_big
+  - first:
+      213: 7665601639970754619
+    second: flower_blue_big_01
+  - first:
+      213: -1247541936863515584
+    second: flower_orange_big_02
+  - first:
+      213: 8629102277382598979
+    second: flower_red_small_01
+  - first:
+      213: 327085707590659880
+    second: flower_blue_big_02
+  - first:
+      213: 5772188673075684386
+    second: flower_blue_big_03
+  - first:
+      213: -5616513930420094752
+    second: Flowers_tileset_13
+  - first:
+      213: -3146905821585851924
+    second: Flowers_tileset_14
+  - first:
+      213: -8015238004789058362
+    second: grass_small_02
+  - first:
+      213: -7696823676077556667
+    second: grass_small_03
+  - first:
+      213: -3671578161705144644
+    second: grass_middle_01
+  - first:
+      213: -4815000207079435671
+    second: grass_middle_02
+  - first:
+      213: -8910021265913479231
+    second: flower_orange_big_01
+  - first:
+      213: -1713242365667459200
+    second: flower_yellow_big
+  - first:
+      213: -8756383403232037132
+    second: flowers_white
+  - first:
+      213: 2875085959116010620
+    second: flower_white
+  - first:
+      213: 7870154961510427398
+    second: flower_red_big_02
+  - first:
+      213: 127710099783721622
+    second: Flowers_tileset_24
+  - first:
+      213: -233459067756444363
+    second: corndog_01
+  - first:
+      213: -4827161357534420065
+    second: corndog_02
+  - first:
+      213: -5063678273671473041
+    second: schilf_01
+  - first:
+      213: 3904551951941831792
+    second: schilf_02
+  - first:
+      213: 4838052674413122311
+    second: schilf_03
+  - first:
+      213: 7902933344280683996
+    second: sunflower_01
+  - first:
+      213: -7871822251083428773
+    second: sunflower_02
+  - first:
+      213: 2977328719319467372
+    second: bush_01
+  - first:
+      213: -3263468448202821379
+    second: bush_02
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grass_big_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cc27d35128e6ab0800000000000000
+      internalID: -5012926307479925614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_big_02
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 352
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d87670ed5ebc9320800000000000000
+      internalID: 2566135198101436632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_small_01
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 368
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4938687d07b9c0fc0800000000000000
+      internalID: -3527273499183381612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_brown_big
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d64f02f3dcaad730800000000000000
+      internalID: 4024719243308123859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_brown_small
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 368
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5934b0a8e6c0f1a0800000000000000
+      internalID: -6777698736761718433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_red_big
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 368
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae55cc6bc12ba9fd0800000000000000
+      internalID: -2334357620442507798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_red_small
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 368
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37211a3ebd2156c00800000000000000
+      internalID: 893140836729033331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_red_big
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df0564379c1ebc60800000000000000
+      internalID: 7835731837415919577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_blue_big_01
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 344
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30db14d310b16a60800000000000000
+      internalID: 7665601639970754619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_orange_big_02
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 337
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ce8dad737dfaee0800000000000000
+      internalID: -1247541936863515584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_red_small_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 327
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34177e56dcab0c770800000000000000
+      internalID: 8629102277382598979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_blue_big_02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 327
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f6c04d7ba0a8400800000000000000
+      internalID: 327085707590659880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_blue_big_03
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 327
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224a53b040fea1050800000000000000
+      internalID: 5772188673075684386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 320
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8f64d76522e02b0800000000000000
+      internalID: -5616513930420094752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 321
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce934ca04d1f354d0800000000000000
+      internalID: -3146905821585851924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_small_02
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 368
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4665e408724c090800000000000000
+      internalID: -8015238004789058362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_small_03
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cb49865a36f2590800000000000000
+      internalID: -7696823676077556667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_middle_01
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 352
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbeab726d1feb0dc0800000000000000
+      internalID: -3671578161705144644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_middle_02
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 352
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962199792dead2db0800000000000000
+      internalID: -4815000207079435671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_orange_big_01
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 345
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cffc00bdde395480800000000000000
+      internalID: -8910021265913479231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_yellow_big
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 339
+        width: 13
+        height: 13
+      alignment: 9
+      pivot: {x: 0.426921, y: 1.713111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fbd3445275938e0800000000000000
+      internalID: -1713242365667459200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowers_white
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 320
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.426921, y: 1.713111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f67a3520b31b7680800000000000000
+      internalID: -8756383403232037132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_white
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 333
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74b2db627b56e720800000000000000
+      internalID: 2875085959116010620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower_red_big_02
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 336
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b6b185d38683d60800000000000000
+      internalID: 7870154961510427398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_tileset_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 9
+        height: 7
+      alignment: 9
+      pivot: {x: 0.36213225, y: 0.49999237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692a6dbb8a7b5c100800000000000000
+      internalID: 127710099783721622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corndog_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 15
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53588ccf63692ccf0800000000000000
+      internalID: -233459067756444363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corndog_02
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 255
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f932baa125a720db0800000000000000
+      internalID: -4827161357534420065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: schilf_01
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 256
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68d2f840733ab9b0800000000000000
+      internalID: -5063678273671473041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: schilf_02
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 256
+        width: 15
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c0d862051cf2630800000000000000
+      internalID: 3904551951941831792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: schilf_03
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703d5073647342340800000000000000
+      internalID: 4838052674413122311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunflower_01
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5a07d410cdcad60800000000000000
+      internalID: 7902933344280683996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunflower_02
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c082d8e5ba1c290800000000000000
+      internalID: -7871822251083428773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bush_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c650b9612b8915920800000000000000
+      internalID: 2977328719319467372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bush_02
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0fc29acb4d5b2d0800000000000000
+      internalID: -3263468448202821379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

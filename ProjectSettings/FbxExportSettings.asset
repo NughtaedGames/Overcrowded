@@ -1,0 +1,47 @@
+{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "",
+        "m_EditorClassIdentifier": "Unity.Formats.Fbx.Editor:UnityEditor.Formats.Fbx.Exporter:ExportSettings",
+        "ExportOutsideProject": true,
+        "Verbose": false,
+        "launchAfterInstallation": true,
+        "HideSendToUnityMenu": true,
+        "BakeAnimation": true,
+        "showConvertToPrefabDialog": true,
+        "integrationSavePath": "D:\\Perforce\\Workspaces\\Overcrowded",
+        "selectedDCCApp": 0,
+        "prefabSavePaths": [
+            "."
+        ],
+        "fbxSavePaths": [
+            "E:/Speicher/Uni/Project 3/sprytile-addon/models/up/new_fbx",
+            "E:/Speicher/Uni/Project 3/sprytile-addon/models/up",
+            ".",
+            "E:/Speicher/Uni/Project 3/sprytile-addon/models"
+        ],
+        "selectedFbxPath": 0,
+        "selectedPrefabPath": 0,
+        "dccOptionNames": [
+            "Maya 2019"
+        ],
+        "dccOptionPaths": [
+            "C:/Program Files/Autodesk/Maya2019/bin/maya.exe"
+        ],
+        "exportModelSettingsSerialize": {
+            "exportFormat": 1,
+            "animatedSkinnedMesh": false,
+            "mayaCompatibleNaming": true,
+            "include": 0,
+            "lodLevel": 0,
+            "objectPosition": 0,
+            "exportUnrendered": true
+        },
+        "convertToPrefabSettingsSerialize": {
+            "exportFormat": 0,
+            "animatedSkinnedMesh": false,
+            "mayaCompatibleNaming": true
+        }
+    }
+}
