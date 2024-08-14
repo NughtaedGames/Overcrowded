@@ -1,4 +1,5 @@
-﻿using Photon.Pun;
+﻿using System;
+using Photon.Pun;
 using UnityEngine;
 using WS20.P3.Overcrowded;
 
@@ -7,8 +8,17 @@ public class GameSettingsNpc : MonoBehaviourPunCallbacks
 {
     private bool masterClientIsColliding;
     [SerializeField] private GameObject eInteract;
-    
-    
+    [SerializeField] private GameObject xInteract;
+    bool isSteamDeck = false;
+
+    private void Start()
+    {
+        if (SystemInfo.operatingSystem.ToLower().Contains("steamos"))
+        {
+            isSteamDeck = true;
+        }
+    }
+
     void Update()
     {
         if (!masterClientIsColliding)
@@ -16,7 +26,7 @@ public class GameSettingsNpc : MonoBehaviourPunCallbacks
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("X"))
         {
             UIManager.Instance.ToggleGameSettingsMenu();
         }
@@ -39,7 +49,16 @@ public class GameSettingsNpc : MonoBehaviourPunCallbacks
         if (other.GetComponent<PlayerManager>().photonView == PlayerManager.LocalPlayerInstance.GetPhotonView())
         {
             masterClientIsColliding = true;
-            eInteract.SetActive(true);
+            if (isSteamDeck)
+            {
+                eInteract.SetActive(false);
+                xInteract.SetActive(true);
+            }
+            else
+            {
+                eInteract.SetActive(true);
+                xInteract.SetActive(false);
+            }
         }
     }
 
@@ -51,8 +70,11 @@ public class GameSettingsNpc : MonoBehaviourPunCallbacks
         }
         if (other.GetComponent<PlayerManager>().photonView == PlayerManager.LocalPlayerInstance.GetPhotonView())
         {
+    
             masterClientIsColliding = false;
+            
             eInteract.SetActive(false);
+            xInteract.SetActive(false);
         }
     }
 }

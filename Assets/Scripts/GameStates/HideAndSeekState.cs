@@ -49,7 +49,7 @@ namespace WS20.P3.Overcrowded
         {
             OnEnable();
 
-            amountOfSeekers = PlayerPrefs.GetInt("seekerAmount"); //GameManagerScript.seekerAmount.Integer;
+            amountOfSeekers = GameManagerScript.seekerAmount.Integer;
 
             if (PhotonNetwork.IsMasterClient && GameManagerScript.photonView.IsMine)
             {
@@ -119,7 +119,7 @@ namespace WS20.P3.Overcrowded
                 return;
             }
 
-            if (GameManagerScript.diedPlayers.Integer == PhotonNetwork.PlayerList.Length - PlayerPrefs.GetInt("seekerAmount")) //GameManager.Instance.seekerAmount.Integer)
+            if (GameManagerScript.diedPlayers.Integer == PhotonNetwork.PlayerList.Length - GameManager.Instance.seekerAmount.Integer)
             {
                 GameManagerScript.photonView.RPC(nameof(GameManager.PlayWinLoseAudio), RpcTarget.All, 0);
             }

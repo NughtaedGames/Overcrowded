@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using Photon.Pun;
 using UnityEngine.UI;
@@ -25,7 +26,12 @@ namespace WS20.P3.Overcrowded
         [SerializeField] private GameObject spaceBarImage;
         [SerializeField] private Sprite buttonPressed;
         [SerializeField] private Sprite buttonNotPressed;
+        [SerializeField] private GameObject xBarImage;
+        [SerializeField] private Sprite steamdeckButtonPressed;
+        [SerializeField] private Sprite steamdeckButtonNotPressed;
 
+        private bool isSteamDeck;
+        
         private Hider hider;
         private Coroutine co;
         
@@ -33,17 +39,52 @@ namespace WS20.P3.Overcrowded
 
         #region MonoBehaviour CallBacks
 
+        public void Start()
+        {
+            if (SystemInfo.operatingSystem.ToLower().Contains("steamos"))
+            {
+                isSteamDeck = true;
+                Debug.LogError("isSteamDeck");
+            }
+
+            if (isSteamDeck)
+            {
+                xBarImage.SetActive(true);
+                spaceBarImage.SetActive(false);
+            }
+            else
+            {
+                xBarImage.SetActive(false);
+                spaceBarImage.SetActive(true);
+            }
+        }
+
         public override void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Space) && isActive)
+            if ((Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("X")) && isActive)
             {
                 barImage.fillAmount += 0.1f;
                 AudioManager.instance.PlayRandomFromList("ButtonMashing");
-                spaceBarImage.GetComponent<Image>().sprite = buttonPressed;
+                if (isSteamDeck)
+                {
+                    xBarImage.GetComponent<Image>().sprite = steamdeckButtonPressed;
+                }
+                else
+                {
+                    spaceBarImage.GetComponent<Image>().sprite = buttonPressed;
+                }
             }
-            else if (Input.GetKeyUp(KeyCode.Space) && isActive)
+            else if ((Input.GetKeyUp(KeyCode.Space) || Input.GetButtonUp("X")) && isActive)
             {
-                spaceBarImage.GetComponent<Image>().sprite = buttonNotPressed;
+                if (isSteamDeck)
+                {
+                    xBarImage.GetComponent<Image>().sprite = steamdeckButtonNotPressed;
+                }
+                else
+                {
+                    spaceBarImage.GetComponent<Image>().sprite = buttonNotPressed;
+                }
+                
             }
 
             base.Update();

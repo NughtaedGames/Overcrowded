@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7c2c2c3c19808149a4d3454e1019255, type: 3}
   m_Name: HBAO
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   shader: {fileID: 4800000, guid: bf610497676b34e4dbe0f14fe3fe311c, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:

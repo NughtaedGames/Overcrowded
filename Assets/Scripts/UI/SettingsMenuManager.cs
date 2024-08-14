@@ -64,10 +64,6 @@ namespace WS20.P3.Overcrowded
 
         public void HoverButtonSound()
         {
-            if (!audioManager)
-            {
-                return;
-            }
             audioManager.PlayRandomFromList("UIButtonHover");
         }
 

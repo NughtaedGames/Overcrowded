@@ -2371,7 +2371,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myValueType: 0
   x10: 0
-  playerPref: seekerAmount
   myIntValue: {fileID: 11400000, guid: 33a28dba2cfd7dc44a24bebbc3fde2fb, type: 2}
   myFloatValue: {fileID: 0}
 --- !u!1 &1868764039898130358
@@ -2489,7 +2488,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myValueType: 1
   x10: 0
-  playerPref: masterVolume
   myIntValue: {fileID: 0}
   myFloatValue: {fileID: 11400000, guid: 06fa9a0f821fbf64abdfd54e5c862717, type: 2}
 --- !u!1 &1868764039903887825
@@ -3169,7 +3167,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myValueType: 0
   x10: 1
-  playerPref: npcAmount
   myIntValue: {fileID: 11400000, guid: 54af83951d0afb543b52f93214d5acbe, type: 2}
   myFloatValue: {fileID: 0}
 --- !u!1 &1868764040037898214
@@ -4661,7 +4658,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myValueType: 1
   x10: 0
-  playerPref: sfxVolume
   myIntValue: {fileID: 0}
   myFloatValue: {fileID: 11400000, guid: 727c2dab307bf8844940558201224993, type: 2}
 --- !u!1 &1868764040502104250
@@ -7167,7 +7163,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myValueType: 1
   x10: 0
-  playerPref: musicVolume
   myIntValue: {fileID: 0}
   myFloatValue: {fileID: 11400000, guid: da3f2a7f8fa67634bb1875b97120bb79, type: 2}
 --- !u!1 &1868764040838735816
@@ -8646,7 +8641,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myValueType: 1
   x10: 0
-  playerPref: ambienceVolume
   myIntValue: {fileID: 0}
   myFloatValue: {fileID: 11400000, guid: 642a21c5a3e6b1d42bdd9e465e9192f0, type: 2}
 --- !u!1 &8717665645091468796

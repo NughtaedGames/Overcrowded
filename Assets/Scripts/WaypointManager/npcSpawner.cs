@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using Photon.Pun;
+using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
 namespace WS20.P3.Overcrowded
@@ -48,15 +49,13 @@ namespace WS20.P3.Overcrowded
             if (PhotonNetwork.IsMasterClient)
             {
                 float count = 0;
-                while (count < PlayerPrefs.GetInt("npcAmount"))
-                //while (count < amountOfNPCs.Integer) //npcAmountToSpawn
+                while (count < amountOfNPCs.Integer) //npcAmountToSpawn
                 {
                     GameObject obj;
                     Transform child = PickRandomSpawn();
 
                     //Calculates the index of the NPC sprite in Spritemanager.characterSprites-List, for an even distribution
-                    float floaty = (count / PlayerPrefs.GetInt("npcAmount")) * amountOfNPCSprites + 1;
-                    //float floaty = (count / amountOfNPCs.Integer) * amountOfNPCSprites + 1;
+                    float floaty = (count / amountOfNPCs.Integer) * amountOfNPCSprites + 1;
                     int floaty2 = (int) floaty;
 
                     if (PhotonNetwork.IsConnected)
@@ -96,6 +95,7 @@ namespace WS20.P3.Overcrowded
                     {
                         waypoint.hasBeenSpawnedOn = true;
                     }
+
                     return waypointObject.transform;
                 }
             }

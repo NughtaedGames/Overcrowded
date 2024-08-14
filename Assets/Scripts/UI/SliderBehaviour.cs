@@ -12,8 +12,6 @@ public class SliderBehaviour : MonoBehaviourPunCallbacks
     public enum ValueType{Integer, Float};
     public ValueType myValueType;
     public bool x10;
-
-    public string playerPref;
     
     public IntInstance myIntValue;
     public FloatInstance myFloatValue;
@@ -25,24 +23,20 @@ public class SliderBehaviour : MonoBehaviourPunCallbacks
         mySlider.onValueChanged.AddListener(delegate { OnValueChanged(); });
         
         
-        
-        
         switch (myValueType)
         {
             case ValueType.Float:
-                mySlider.value = PlayerPrefs.GetFloat(playerPref);
-                //mySlider.value = myFloatValue.Float;
+                mySlider.value = myFloatValue.Float;
                 break;
             
             case ValueType.Integer:
                 if (!x10)
                 {
-                    mySlider.value = PlayerPrefs.GetInt(playerPref);
-                    //mySlider.value = myIntValue.Integer;
+                    mySlider.value = myIntValue.Integer;
                     break;
                 }
-                mySlider.value = PlayerPrefs.GetInt(playerPref) / 10;
-                //mySlider.value = myIntValue.Integer / 10;
+
+                mySlider.value = myIntValue.Integer / 10;
                 break;
         }
         mySlider.onValueChanged.Invoke(mySlider.value);

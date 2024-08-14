@@ -16,6 +16,7 @@ namespace WS20.P3.Overcrowded
         public GameObject mapPointer;
         public GameObject progressBar;
         public GameObject marker;
+        public GameObject xMarker;
 
         public bool playerIsColliding;
         public bool taskIsFinished;
@@ -51,18 +52,27 @@ namespace WS20.P3.Overcrowded
                 }
             }
 
-            if (Input.GetKeyDown(KeyCode.E) && playerIsColliding && !taskIsFinished && !isActive)
+            if ((Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("X")) && playerIsColliding && !taskIsFinished && !isActive)
             {
                 Interact();
             }
 
             if (playerIsColliding && !taskIsFinished)
             {
-                marker.SetActive(true);
+                if (SystemInfo.operatingSystem.ToLower().Contains("steamos"))
+                {
+                    xMarker.SetActive(true);
+                }
+                else
+                {
+                    marker.SetActive(true);
+                }
+                
             }
             else
             {
                 marker.SetActive(false);
+                xMarker.SetActive(false);
             }
         }
 

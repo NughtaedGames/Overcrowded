@@ -228,15 +228,13 @@ namespace WS20.P3.Overcrowded
         [PunRPC]
         public void UpdateAmountOfSeekersPun(int amt)
         {
-            //seekerAmount.Integer = amt;
-            PlayerPrefs.SetInt("seekerAmount", amt);
+            seekerAmount.Integer = amt;
         }
 
         [PunRPC]
         public void UpdateAmountOfNPCsPun(int amt)
         {
-            //npcAmount.Integer = amt;
-            PlayerPrefs.SetInt("npcAmount", amt);
+            npcAmount.Integer = amt;
         }
 
         [PunRPC]

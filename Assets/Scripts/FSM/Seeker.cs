@@ -18,7 +18,8 @@ namespace WS20.P3.Overcrowded
         
         private const float spaceCooldown = 10;
         private const float eCooldown = 20;
-
+        private bool isSteamDeck;
+        
         #endregion
 
         #region MonoBehaviour CallBacks
@@ -28,6 +29,12 @@ namespace WS20.P3.Overcrowded
             PlayerManagerScript.photonView.RPC("MovePlayerToStartPosition", RpcTarget.All);
             UIManager.Instance.ActivateUI("seeker");
 
+            if (SystemInfo.operatingSystem.ToLower().Contains("steamos"))
+            {
+                isSteamDeck = true;
+                Debug.LogError("isSteamDeck");
+            }
+            
             yield break;
         }
 
@@ -98,7 +105,7 @@ namespace WS20.P3.Overcrowded
 
             if (canUseSpace)
             {
-                if (Input.GetKeyDown(KeyCode.Space))
+                if (Input.GetKeyDown(KeyCode.Space) || (isSteamDeck && Input.GetButtonDown("A")))
                 {
                     PlayerManagerScript.area.SetActive(true);
                     PlayerManagerScript.area.transform.SetParent(null);
@@ -108,7 +115,7 @@ namespace WS20.P3.Overcrowded
                 }
                 //else PlayerManagerScript.area.SetActive(false);
                 
-                if (Input.GetKeyUp(KeyCode.Space))
+                if (Input.GetKeyUp(KeyCode.Space) || (isSteamDeck && Input.GetButtonUp("A")))
                 {
                     canUseSpace = false;
                     StunSurrounding();
@@ -130,7 +137,7 @@ namespace WS20.P3.Overcrowded
 
             if (canUseE && PlayerManagerScript.collidingGate != null)
             {
-                if (Input.GetKeyDown(KeyCode.E) && !PlayerManagerScript.collidingGate.gateIsDown)
+                if ((Input.GetKeyDown(KeyCode.E) && !PlayerManagerScript.collidingGate.gateIsDown) || (isSteamDeck && Input.GetButtonDown("X") && !PlayerManagerScript.collidingGate.gateIsDown))
                 {
                     canUseE = false;
                     UIManager.Instance.StartCoroutine("GateCooldownCoroutine", eCooldown);

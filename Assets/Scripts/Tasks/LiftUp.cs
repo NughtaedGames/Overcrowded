@@ -57,7 +57,7 @@ namespace WS20.P3.Overcrowded
                 StopTask();
             }
 
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("X"))
             {
                 if (secondPlayerIsColliding && !playerIsColliding)
                 {

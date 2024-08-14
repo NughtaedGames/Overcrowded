@@ -20,6 +20,7 @@ namespace WS20.P3.Overcrowded
         private bool allTasksDone;
         private bool firstTask = true;
         private int whistleCooldown = 3;
+        private bool isSteamDeck;
 
         #endregion
 
@@ -35,13 +36,19 @@ namespace WS20.P3.Overcrowded
             UIManager.Instance.windowQuestPointer.SetActive(true);
             UIManager.Instance.ActivateUI("hider");
 
+            if (SystemInfo.operatingSystem.ToLower().Contains("steamos"))
+            {
+                isSteamDeck = true;
+                Debug.LogError("isSteamDeck");
+            }
+            
             yield return base.Start();
         }
 
         public override IEnumerator Update()
         {
 
-            if (Input.GetKeyUp(KeyCode.Space))
+            if (Input.GetKeyUp(KeyCode.Space) || (isSteamDeck && Input.GetButtonUp("A")))
             {
 
                 if (interruptWhistle)

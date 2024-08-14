@@ -25,8 +25,6 @@ namespace WS20.P3.Overcrowded
         
         [SerializeField] private int gateCoolDown;
 
-        private bool playerIsColliding;
-        
         #endregion
 
         #region Monobehaviour Callback
@@ -46,7 +44,7 @@ namespace WS20.P3.Overcrowded
             {
                 playerManager.collidingGate = this;
                 interactE.SetActive(true);
-                playerIsColliding = true;
+                
             }
         }
 
@@ -56,7 +54,6 @@ namespace WS20.P3.Overcrowded
             {
                 playerManager.collidingGate = null;
                 interactE.SetActive(false);
-                playerIsColliding = false;
             }
         }
 
@@ -72,11 +69,7 @@ namespace WS20.P3.Overcrowded
             gateIsDown = false;
             gateUp.SetActive(true);
             gateDown.SetActive(false);
-            if (playerIsColliding)
-            {
-                interactE.SetActive(true);
-            }
-
+            interactE.SetActive(true);
             if (waypoints.Length != 0)
             {
                 for (int i = 0; i < waypoints.Length; i++)

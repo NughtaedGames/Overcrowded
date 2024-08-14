@@ -107,15 +107,15 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DistanceThreshold: 7.178264
-    - _DistanceThresholdZ: 4.8000093
+    - _DistanceThreshold: 6.8991323
+    - _DistanceThresholdZ: 4.3926787
     - _DitherSize: 2
     - _DstBlend: 0
     - _EnableExternalAlpha: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Magic: -0.019999936
+    - _Magic: 1.8800004
     - _Metallic: 0
     - _Mode: 1
     - _OcclusionStrength: 1
@@ -140,7 +140,7 @@ Material:
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _PlayerPosition: {r: 0.4675768, g: 0.56110847, b: 0, a: 0}
+    - _PlayerPosition: {r: 0.49994794, g: 0.5226267, b: 0, a: 0}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _effector: {r: 0, g: 0, b: 0, a: 0}

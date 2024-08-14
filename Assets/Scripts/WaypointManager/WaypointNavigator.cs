@@ -53,7 +53,7 @@ namespace WS20.P3.Overcrowded
             
             if (controller.reachedDestination)
             {
-                Debug.LogError("NPC: " + this.transform.name + " Set Waypoint with reached destination");
+                //Debug.LogError("NPC: " + this.transform.name + " Set Waypoint with reached destination");
                 
                 bool shouldBranch = false;
                 

@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using Random = UnityEngine.Random;
 
 namespace WS20.P3.Overcrowded
 {
@@ -38,7 +40,7 @@ namespace WS20.P3.Overcrowded
             agent = GetComponent<NavMeshAgent> ();
             timer = wanderTimer;
         }
- 
+
         void Update () {
             timer += Time.deltaTime;
 
